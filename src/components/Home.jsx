@@ -26,7 +26,7 @@ export const Home = () => {
         muted
         playsInline
       >
-        <source src="../src/assets/background.mp4" type="video/mp4" />
+        <source src="https://i.imgur.com/tZc1mda.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

@@ -4,14 +4,14 @@ import { useInView } from 'react-intersection-observer';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution with React and Node.js',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    title: 'Amor AI',
+    description: 'An AI App that gives a melody to your love story',
+    image: '../src/assets/workinprogress.jpg',
     github: '#',
     live: '#',
   },
   {
-    title: 'Task Management App',
+    title: 'Clone',
     description: 'A beautiful and intuitive task management application',
     image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     github: '#',
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: 'Voice-Base-Navigation Chrome Extension',
-    description: 'Generate unique images using artificial intelligence',
+    description: 'A Chrome extension that allows users to navigate using voice commands. Control your browsing experience hands-free!',
     image: '../src/assets/voice-base.png',
     github: 'https://github.com/BORED-ARADHYA/VOICE-NAV-EXTENTION',
     live: '#',

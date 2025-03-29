@@ -27,7 +27,7 @@ const projects = [
   {
     title: 'Voice-Base-Navigation Chrome Extension',
     description: 'A Chrome extension that allows users to navigate using voice commands. Control your browsing experience hands-free!',
-    image: '../src/assets/voice-base.png',
+    image: 'https://i.imgur.com/rFo8Ybp.png',
     github: 'https://github.com/BORED-ARADHYA/VOICE-NAV-EXTENTION',
     live: '#',
   },

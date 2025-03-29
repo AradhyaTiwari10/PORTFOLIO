@@ -56,7 +56,7 @@ export const About = () => {
               className="md:w-1/2 max-w-2xl"
             >
               <img
-                src="../src/assets/aradhya1.png"
+                src="https://i.imgur.com/fD4mCC7.jpeg"
                 alt="Aradhya"
                 className="w-full h-auto"
                 style={{

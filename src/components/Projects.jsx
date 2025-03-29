@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Amor AI',
     description: 'An AI App that gives a melody to your love story',
-    image: '../src/assets/workinprogress.jpg',
+    image: 'https://i.imgur.com/BhMI6Tl.jpeg',
     github: '#',
     live: '#',
   },
@@ -20,7 +20,7 @@ const projects = [
   {
     title: 'Tab-Screen-Timer Chrome Extension',
     description: 'Track your digital time with elegance and simplicity',
-    image: '../src/assets/tab-screen.png',
+    image: 'https://i.imgur.com/YEe9DEs.png',
     github: 'https://github.com/BORED-ARADHYA/Tab-Screen-Timer-Extension',
     live: '#',
   },
@@ -34,14 +34,14 @@ const projects = [
   {
     title: 'Tic-Tac-Toe',
     description: "A fun Game of X's and O's",
-    image: '../src/assets/tic-tac.png',
+    image: 'https://i.imgur.com/a41g6hp.png',
     github: 'https://github.com/BORED-ARADHYA/Tic-Tac-Toe',
     live: 'https://tictacbyaradhya.netlify.app/',
   },
   {
     title: 'Weather App',
     description: 'Real-time weather forecasts with React and OpenWeatherMap API',
-    image: '../src/assets/weather--app.png',
+    image: 'https://i.imgur.com/wTlzvh1.png',
     github: 'https://github.com/BORED-ARADHYA/Weather-App',
     live: 'https://weatherbyaradhya.netlify.app/',
   },

@@ -27,10 +27,10 @@ export const About = () => {
             About Me
           </h2>
 
-          {/* Flexbox Layout - Image + Text */}
+
           <div className="flex flex-col-reverse md:flex-row items-center gap-12">
             
-            {/* Text Section */}
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -48,7 +48,7 @@ export const About = () => {
               </p>
             </motion.div>
 
-            {/* Image Section - Same as Home */}
+
             <motion.div
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}

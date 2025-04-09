@@ -53,7 +53,6 @@ PORTFOLIO
 ✅ **Smooth Animations** – Engaging animations to enhance the user experience.  
 ✅ **Project Showcase** – Displays my best projects with live links and GitHub repositories.  
 ✅ **Contact Form** – Integrated with Email.js for easy communication.  
-✅ **Authentication** – Secured with Clerk.js for login and protected routes.  
 ✅ **Fast & Optimized** – Developed using Vite for blazing-fast performance.  
 
 ---

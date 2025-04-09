@@ -42,7 +42,6 @@ PORTFOLIO
 | **Vite** | Fast build tool |
 | **Tailwind CSS** | Styling |
 | **Email.js** | Contact form integration |
-| **Clerk.js** | Authentication |
 | **Lucide React** | Icons |
 | **Framer Motion** | Animations |
 

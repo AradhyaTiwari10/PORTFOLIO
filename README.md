@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to my personal portfolio website, built using **React**, **Vite**, and **Tailwind CSS**. This website showcases my skills, projects, and contact details in a clean and interactive format.
+Welcome to my personal portfolio website, built using **React**, **Vite** and **Tailwind CSS**. This website showcases my skills, projects, and contact details in a clean and interactive format.
 
 ## 🚀 Live Demo
 [ https://aaruz.netlify.app/ ]

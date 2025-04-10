@@ -11,25 +11,25 @@ const projects = [
     live: '#',
   },
   {
-    title: 'Clone',
-    description: 'A beautiful and intuitive task management application',
-    image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    github: '#',
-    live: '#',
+    title: 'Real Estate',
+    description: 'Browse and explore properties with a clean, user-friendly interface.',
+    image: 'https://i.imgur.com/pgEzgba.jpeg',
+    github: 'https://github.com/AradhyaTiwari10/PORTFOLIO.git',
+    live: 'https://realestatebyaradhya.netlify.app/',
   },
   {
     title: 'Tab-Screen-Timer Chrome Extension',
     description: 'Track your digital time with elegance and simplicity',
     image: 'https://i.imgur.com/YEe9DEs.png',
     github: 'https://github.com/BORED-ARADHYA/Tab-Screen-Timer-Extension',
-    live: '#',
+    live: null, // removed
   },
   {
     title: 'Voice-Base-Navigation Chrome Extension',
-    description: 'A Chrome extension that allows users to navigate using voice commands. Control your browsing experience hands-free!',
+    description: 'A Chrome extension that allows users to navigate using voice commands.',
     image: 'https://i.imgur.com/rFo8Ybp.png',
     github: 'https://github.com/BORED-ARADHYA/VOICE-NAV-EXTENTION',
-    live: '#',
+    live: null, // removed
   },
   {
     title: 'Tic-Tac-Toe',
@@ -80,22 +80,26 @@ export const Projects = () => {
                   className="w-full h-48 object-cover"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
-                  <a
-                    href={project.github}
-                    className="p-2 bg-white rounded-full hover:bg-gray-100 transition-colors duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Github className="w-6 h-6 text-gray-800" />
-                  </a>
-                  <a
-                    href={project.live}
-                    className="p-2 bg-white rounded-full hover:bg-gray-100 transition-colors duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <ExternalLink className="w-6 h-6 text-gray-800" />
-                  </a>
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      className="p-2 bg-white rounded-full hover:bg-gray-100 transition-colors duration-200"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="w-6 h-6 text-gray-800" />
+                    </a>
+                  )}
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      className="p-2 bg-white rounded-full hover:bg-gray-100 transition-colors duration-200"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-6 h-6 text-gray-800" />
+                    </a>
+                  )}
                 </div>
               </div>
               <div className="p-6">

@@ -7,14 +7,14 @@ const projects = [
     title: 'Amor AI',
     description: 'An AI App that gives a melody to your love story',
     image: 'https://i.imgur.com/BhMI6Tl.jpeg',
-    github: '#',
-    live: '#',
+    github: 'https://github.com/AradhyaTiwari10/AMOR_AI.git',
+    live: null,
   },
   {
     title: 'Real Estate',
     description: 'Browse and explore properties with a clean, user-friendly interface.',
     image: 'https://i.imgur.com/pgEzgba.jpeg',
-    github: 'https://github.com/AradhyaTiwari10/PORTFOLIO.git',
+    github: 'https://github.com/AradhyaTiwari10/REAL-ESTATE-WEB',
     live: 'https://realestatebyaradhya.netlify.app/',
   },
   {
@@ -22,14 +22,14 @@ const projects = [
     description: 'Track your digital time with elegance and simplicity',
     image: 'https://i.imgur.com/YEe9DEs.png',
     github: 'https://github.com/BORED-ARADHYA/Tab-Screen-Timer-Extension',
-    live: null, // removed
+    live: null, 
   },
   {
     title: 'Voice-Base-Navigation Chrome Extension',
     description: 'A Chrome extension that allows users to navigate using voice commands.',
     image: 'https://i.imgur.com/rFo8Ybp.png',
     github: 'https://github.com/BORED-ARADHYA/VOICE-NAV-EXTENTION',
-    live: null, // removed
+    live: null, 
   },
   {
     title: 'Tic-Tac-Toe',

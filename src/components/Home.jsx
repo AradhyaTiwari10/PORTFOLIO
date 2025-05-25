@@ -7,7 +7,7 @@ export const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ['Frontend Developer', 'UI/UX Designer', 'Problem Solver'],
+      strings: ['New Portfolio Available!', 'Check Out My New Website', 'Visit My Updated Portfolio'],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
@@ -42,18 +42,20 @@ export const Home = () => {
           className="max-w-3xl"
         >
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-            Hi, I'm <span className="text-blue-400">Aradhya</span>
+            Welcome to My <span className="text-blue-400">Old Portfolio</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-200 mb-8">
-            I'm a <span ref={typedRef}></span>
+            <span ref={typedRef}></span>
           </h2>
           <motion.a
-            href="#projects"
+            href="https://aradhya-tiwari.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-block px-8 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors duration-200"
           >
-            View My Work
+            Visit My New Portfolio
           </motion.a>
         </motion.div>
       </div>
